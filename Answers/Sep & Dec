@@ -1,0 +1,6 @@
+/*
+SELECT * FROM Transaction_list WHERE (Date LIKE "Sep") AND (Date LIKE "Dec");
+
+*/
+
+SELECT * FROM Transaction_list WHERE (Date LIKE "Sep") OR (Date LIKE "Dec");

@@ -1,0 +1,1 @@
+SELECT * FROM Transaction_list WHERE (Description LIKE 'Debit Card') AND (Withdrawals > 100000);

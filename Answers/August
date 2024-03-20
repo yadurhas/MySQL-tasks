@@ -1,0 +1,1 @@
+SELECT * FROM Transaction_list WHERE (Deposits > 50000) AND (Date LIKE 'Aug') OR (Balance < 200000);

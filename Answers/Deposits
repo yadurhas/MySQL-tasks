@@ -1,0 +1,1 @@
+SELECT Description, Deposits, Balance FROM Transaction_list; 

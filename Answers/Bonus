@@ -1,0 +1,4 @@
+
+SELECT Description, Balance, (0.05 * Balance) as Bonus FROM Transaction_list;
+
+/*SELECT Description, Balance, (CAST(0.05 AS DECIMAL(20, 4)) * CAST(Balance AS DECIMAL(20, 4))) as Bonus FROM Transaction_list;*/

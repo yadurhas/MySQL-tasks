@@ -1,0 +1,6 @@
+/*ALTER TABLE Transaction_list DROP COLUMN Withdrawals, DROP COLUMN Deposits;
+
+SELECT * FROM Transaction_list;*/
+
+
+SELECT Date, Description, Balance FROM Transaction_list; 

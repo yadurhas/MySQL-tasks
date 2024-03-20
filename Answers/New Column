@@ -1,0 +1,1 @@
+ALTER TABLE Transaction_list ADD COLUMN Name VARCHAR(30);

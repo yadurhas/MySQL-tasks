@@ -1,0 +1,10 @@
+CREATE TABLE Transaction_list (
+Date CHAR(3),
+Description VARCHAR(25),
+Deposits DECIMAL(15, 2),
+Withdrawals DECIMAL(15, 2),
+Balance DECIMAL(15, 2)
+);
+
+
+LOAD DATA LOCAL INFILE 'Transaction list.csv' INTO TABLE Transaction_list FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES;

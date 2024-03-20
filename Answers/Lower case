@@ -1,0 +1,1 @@
+SELECT DISTINCT LOWER(Description) as Description FROM Transaction_list;

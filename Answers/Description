@@ -1,0 +1,1 @@
+SELECT * FROM Transaction_list WHERE (Description LIKE 'Interest') OR (Description LIKE 'Tax') OR (Description LIKE 'Transfer') OR (Description LIKE 'ATM') ORDER BY Deposits;
